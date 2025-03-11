@@ -27,8 +27,8 @@ const getAllPoll = async (query: Record<string, unknown>) => {
   };
 };
 
-const getSinglePoll = async (slug: string) => {
-  const result = await Poll.findOne({ slug });
+const getSinglePoll = async (_id: string) => {
+  const result = await Poll.findOne({ _id });
   return result;
 };
 

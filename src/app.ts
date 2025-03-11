@@ -8,7 +8,7 @@ const app = express();
 
 const allowedOrigins: string[] = [
   'http://localhost:5173',
-  'https://book-inventory-opal.vercel.app',
+  'https://vanishvote-server-iota.vercel.app',
 ];
 
 app.use(express.json());
